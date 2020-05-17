@@ -61,7 +61,7 @@ nav ul li a {
 }
 
 .titulo h1 {
-	font-size: 60px;
+	font-size: 46px;
 	font-style: italic;
 	color: #fff;
 	margin: auto;
@@ -175,10 +175,13 @@ td{
 	background: #00000075;
 	top: 0;
 	left: 0;
-	text-align: center;
 	width: 100%;
-	height: 100%;
-	padding-top: 269px;
+	height: 100%;;
+}
+
+.oculto h5 {
+	text-align: center;
+	padding-top: 160px;
 }
 
 .agrandar {
@@ -214,24 +217,30 @@ td{
 }
 
 .oculto-trainer{
+	display: none; 
 	 position: absolute;
     top: 0px;
-    left: 0;
+    left: 0px;
     background: #b8de118a;
     width: 100%;
-    height: 100%;
-    display: none;
+	height: 100%;
+    
 }
 
 .texto-oculto h5{
 	font-size: 18px;
 	font-style: italic;
+	margin-bottom: 3px;
 }
 
 .texto-oculto{
-	left: 58px;
-	top:309px;
-	position: relative;
+	left: 37px;
+    top: 281px;
+    position: relative;
+}
+
+.texto-oculto svg{
+	margin: 0 3px;
 }
 
 footer{
@@ -314,6 +323,7 @@ header .contenedor .menu-icon{
 
 .titulo h1{
 	font-size: 45px;
+	margin-top: 80px;
 }
 
 
@@ -330,6 +340,7 @@ header .contenedor .menu-icon{
 	display: block;
 	text-align: center;
 	background:#F3F3F3;
+	padding-bottom: 10px;
 }
 
 .tabla-responsive .contenedor p{
@@ -366,6 +377,21 @@ table {
     margin-left: 10px;
 }
 
+.texto-oculto {
+    left: 9px;
+    top: 70px;
+    position: relative;
+}
+
+.texto-oculto h5 {
+	font-size: 9px;
+	margin-bottom: 0px;
+}
+
+.texto-oculto svg{
+	font-size: 9px;
+	margin:0px
+}
 
 footer{
 	padding:70px 0px;
